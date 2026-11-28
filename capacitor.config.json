@@ -1,0 +1,11 @@
+{
+  "appId": "com.salarycalc.biweekly",
+  "appName": "Payroll",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

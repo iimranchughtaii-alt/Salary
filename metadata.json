@@ -1,0 +1,6 @@
+{
+  "name": "Biweekly Salary Calculator",
+  "description": "15-day biweekly salary, overtime, loan ledger, and offline PDF salary slip generator built for Android and mobile web.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

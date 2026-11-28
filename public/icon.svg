@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1419" />
+      <stop offset="100%" stop-color="#0F2027" />
+    </linearGradient>
+    <linearGradient id="emeraldRibbon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="55%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#0F766E" />
+    </linearGradient>
+    <linearGradient id="goldArc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect x="8" y="8" width="496" height="496" rx="106" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="4" />
+  <path
+    d="M258 176 A92 92 0 1 1 200 342"
+    fill="none"
+    stroke="url(#goldArc)"
+    stroke-width="18"
+    stroke-linecap="round"
+  />
+  <path
+    d="M258 214 V264 H296"
+    fill="none"
+    stroke="url(#goldArc)"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M148 118 H266 C332 118 374 158 374 218 C374 278 332 316 266 316 H204 V394 L148 416 V118 Z M204 170 V264 H260 C294 264 316 244 316 218 C316 190 294 170 260 170 H204 Z"
+    fill="url(#emeraldRibbon)"
+  />
+</svg>
